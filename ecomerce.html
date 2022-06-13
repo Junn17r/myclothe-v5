@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/bc7c88426a.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="nav Container">
+            <div class="logo-main"><a><span>MyClothes</span></a></div>
+            <a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+            <a href="servicios.html"><i class="fa-regular fa-note-sticky"></i>Nuestro Servicios</a>
+            <a href="#" class="logo"><i class="fa-solid fa-cart-shopping"></i>Marketplace</a>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Tu Carrito</h2>
+                <div class="cart-content">
+                
+                </div>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!--Boton de Comprar-->
+                <form action= "https://commerce.coinbase.com/charges/ZVYYZTCR">
+                    <button type="button"  class="btn-buy">Compar Ahora</button>
+                </form>
+            
+                <!--Cart Close-->
+                <box-icon class="bx bx-x" name='x' id="close-cart"></box-icon>
+            </div>
+        </div>
+        
+    </header>
+    <section class="shop Container">
+        <h2 class="section-title">Shop Products</h2>
+        <div class="shop-content">
+            <!--Box 1-->
+            <div class="product-box">
+                <img src="img/camiseta-trasher.jpg" alt="" class="product-img">
+                <h2 class="product-title">Camiseta Trsh Blue</h2>
+                <span class="price">30$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 2-->
+            <div class="product-box">
+                <img src="img/camiseta-trasher2.jpg" alt="" class="product-img">
+                <h2 class="product-title">Camiseta Trsh White</h2>
+                <span class="price">30$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 3-->
+            <div class="product-box">
+                <img src="img/camiseta-trasher3.jpg" alt="" class="product-img">
+                <h2 class="product-title">Camiseta Trsh Light Blue</h2>
+                <span class="price">30$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 4-->
+            <div class="product-box">
+                <img src="img/camiseta-trasher4.jpg" alt="" class="product-img">
+                <h2 class="product-title">Camiseta Trsh Blue</h2>
+                <span class="price">30$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 5-->
+            <div class="product-box">
+                <img src="img/hoodi-negro.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hoddie Nike</h2>
+                <span class="price">60$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 6-->
+            <div class="product-box">
+                <img src="img/hoddie-papa.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hoddie Black</h2>
+                <span class="price">60$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 7-->
+            <div class="product-box">
+                <img src="img/hoddie-3.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hoddie White</h2>
+                <span class="price">60$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 8-->
+            <div class="product-box">
+                <img src="img/hoddie-4.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hoddie Yellow</h2>
+                <span class="price">60$</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <!--Link js-->
+    <script src="javascript/mainjs"></script>   
+</body>
+</html>
